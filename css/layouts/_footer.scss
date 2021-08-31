@@ -1,0 +1,33 @@
+ .footer-area {
+     width: 1437px;
+     margin: 0 auto;
+     background: $color-footer;
+     padding: 5rem 0;
+     img {
+         display: inline-block;
+     }
+     .margin-foot {
+         margin: 2rem 0;
+     }
+     .row {
+         .image {
+             img {
+                 &:not(:last-child) {
+                     margin-right: 3rem;
+                 }
+             }
+         }
+         ul {
+             li {
+                 &:not(:last-child) {
+                     margin-right: 3rem;
+                 }
+                 a {
+                     font-family: 'Poppins', sans-serif;
+                     color: #fff;
+                     text-transform: uppercase;
+                 }
+             }
+         }
+     }
+ }

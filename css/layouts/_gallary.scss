@@ -1,0 +1,14 @@
+@import '../base/variables';
+.gallary-area {
+    background-color: $color-dark-bold;
+    width: 1437px;
+    margin: 0 auto;
+    padding: 10rem 0;
+    .container {
+        .row {
+            img {
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}

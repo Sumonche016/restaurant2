@@ -1,0 +1,68 @@
+.header-area {
+    width: 1437px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    z-index: 5;
+    padding-top: 2.5rem;
+    margin: 0px auto;
+}
+
+.header-area ul li:not(:last-child) {
+    margin-right: 2.2rem;
+}
+
+.header-area ul li a {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-family: "Aachen BT";
+    font-size: 14px;
+    letter-spacing: .5px;
+}
+
+.hero-area {
+    width: 1437px;
+    background-size: cover;
+    height: 150vh;
+    margin: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.hero-area .overlay {
+    background-color: rgb(34, 34, 40);
+    opacity: 0.9;
+    position: absolute;
+    top: 0px;
+    width: 1437px;
+    height: 150vh;
+    z-index: 4;
+}
+
+.hero-area .container {
+    padding-top: 11rem;
+}
+
+.hero-area .hero-plate {
+    z-index: 10;
+    position: relative;
+}
+
+.hero-area .hero-text {
+    z-index: 10;
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-family: "Aachen BT";
+    padding-left: 4rem;
+    height: 50%;
+    -webkit-box-pack: unset;
+    justify-content: unset;
+}
+
+.hero-area .hero-text h3 {
+    font-size: 3.1rem;
+    width: 31rem;
+    letter-spacing: 3.5px;
+    color: rgb(254, 144, 0);
+    text-transform: capitalize;
+}

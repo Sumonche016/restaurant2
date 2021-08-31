@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.align-item {
+    align-items: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+margin {
+    margin: 0 auto;
+}
+
+.width {
+    width: 100%;
+}
+
+.text {
+    text-align: center;
+}
+
+.margin-footer {
+    margin: 2rem 0;
+}

@@ -1,0 +1,28 @@
+.about-area {
+    width: 1437px;
+    margin: 0 auto;
+    padding: 9rem 0;
+    background-color: $color-dark-bold;
+    font-family: $font;
+    position: relative;
+    .about-text {
+        position: relative;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding-right: 7rem;
+        line-height: 1.3;
+        h4 {
+            color: white;
+            font-size: 4rem;
+            letter-spacing: 1px;
+            font-weight: 500;
+        }
+        p {
+            color: #fff;
+            font-size: 1.8rem;
+            text-align: justify;
+            margin-top: 2rem;
+        }
+    }
+}
